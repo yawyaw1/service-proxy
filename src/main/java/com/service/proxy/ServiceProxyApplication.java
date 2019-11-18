@@ -1,4 +1,4 @@
-package fr.perioline.proxy.service;
+package com.service.proxy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,9 +8,9 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @EnableZuulProxy
 @EnableDiscoveryClient
 @SpringBootApplication
-public class ProxyServiceApplication {
+public class ServiceProxyApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(ProxyServiceApplication.class, args);
+		SpringApplication.run(ServiceProxyApplication.class, args);
 	}
 
 }

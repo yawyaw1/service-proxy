@@ -8,10 +8,10 @@
 		<version>2.1.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>fr.perioline.proxy.service</groupId>
-	<artifactId>proxy-service</artifactId>
+	<groupId>com.service.proxy</groupId>
+	<artifactId>service-proxy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>proxy-service</name>
+	<name>service-proxy</name>
 	<description>Proxy microservice</description>
 
 	<properties>
@@ -27,12 +27,6 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
